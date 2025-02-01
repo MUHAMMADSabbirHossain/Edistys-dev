@@ -9,8 +9,8 @@ const NotFound = () => {
                 className="w-64 mb-6 animate-bounce"
             />
             <h1 className="text-4xl font-bold text-gray-800">Oops! Page Not Found</h1>
-            <p className="text-gray-600 mt-2">It looks like you're lost in space.</p>
-            <div className="mt-6 flex flex-wrap justify-center gap-4">
+            <p className="text-gray-600 mt-2">It looks like you&apos;re lost in space.</p>
+            <div className="my-5 flex flex-wrap justify-center gap-4">
                 <Link to="/" className="btn btn-primary">Home</Link>
                 <Link to="/solutions" className="btn btn-secondary">Solutions</Link>
                 <Link to="/services" className="btn btn-accent">Services</Link>
