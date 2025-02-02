@@ -7,6 +7,7 @@ import NotFound from "../pages/NotFound/NotFound";
 import Root from "../layouts/root";
 import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
 import Solutions from "../pages/Solutions/Solutions";
+import Home from "../pages/Home/Home";
 
 
 const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Root />,
         children: [
+            {
+                path: "/",
+                element: <Home />,
+            },
             {
                 path: "/solutions",
                 element: <Solutions />,
