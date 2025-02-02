@@ -45,9 +45,9 @@ const Philosophy = () => {
                         alt="Philosophy img"
                     />
                 </div>
-                <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-10">
+                <section className="flex flex-col md:flex-row flex-wrap gap-10 mt-10 justify-center">
                     {/* cards */}
-                    {philosophyContents.map((content, index) => (<div key={index} className="bg-[#e4f3ff] max-w-[350px] px-5 py-10 flex items-start justify-center flex-col rounded-4xl space-y-5">
+                    {philosophyContents.map((content, index) => (<div key={index} className="bg-[#e4f3ff] w-[350px] h-[450px] px-5 py-10 flex items-start justify-center flex-col rounded-4xl space-y-5">
                         <img className=" object-contain " src={content?.image} alt="Finance" />
 
                         <h1 className="text-3xl font-bold text-[#00254e]">{content?.heading}</h1>
