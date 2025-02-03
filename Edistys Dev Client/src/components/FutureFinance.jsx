@@ -7,7 +7,7 @@ import FinanceMainImg from "../assets/FutureFinance/finance.png";
 const FutureFinance = () => {
     return (
         <section className="w-full bg-[#FFF] mx-auto flex items-center justify-center  flex-col  mt-10">
-            <div className="lg:max-w-[1200px] w-full flex justify-between relative  lg:flex-row lg:px-10 xl:px-0 px-0 gap-5 lg:gap-0 lg:items-start flex-col items-center">
+            <div className="lg:max-w-[1200px] w-full flex justify-between relative  lg:flex-row lg:px-10 xl:px-0 px-0 gap-5 lg:gap-0 lg:items-start flex-col items-center my-20">
                 <div className="lg:w-1/2 text-center lg:text-start">
                     <h1 className="text-base font-bold leading-[24px] montserrat-font text-[#1f80f0] px-10 lg:px-0">
                         POWERING THE FUTURE OF FINANCE
