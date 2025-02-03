@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import landingPageWoman from "../assets/humans/landingPageWomen-7952x5304.avif";
+import 'animate.css';
 
 const LandingPageBanner = () => {
     return (
@@ -271,7 +272,7 @@ const LandingPageBanner = () => {
                                 alt="Banner" />
                         </div> */}
 
-                <img src={landingPageWoman} alt="landing pase banner" className="absolute top-[550px] sm:top-[350px] z-30" style={{
+                <img src={landingPageWoman} alt="landing pase banner" className="absolute top-[650px] sm:top-[650px] z-30 animate__animated animate__fadeInUp animate__slow" style={{
                     clipPath: "polygon(0 20%, 100% 0, 100% 80%, 0 100%)",
                 }} />
             </div>
@@ -298,9 +299,9 @@ const LandingPageBanner = () => {
                     </div>
 
 
-                    <div className="max-w-[1150px] min-w-[992px flex items-start justify-start absolute top-[130px] lg:left-10 xl:left-10 xxl:left-[130px] 3xl:left-[200px] 4xl:left-[200px] largest:left-[250px] z-50 ">
+                    <div className="max-w-[1150px] min-w-[992px flex items-start justify-start absolute top-[130px] lg:left-10 xl:left-10 xxl:left-[130px] 3xl:left-[200px] 4xl:left-[200px] largest:left-[250px] z-50   animate__animated animate__fadeIn animate__slow">
                         <div className="">
-                            <h1 className="montserrat-font font-semibold  lg:text-[40px] xl:text-[80px] xl:leading-[92px] text-[#FFF]">
+                            <h1 className="font-semibold  lg:text-[40px] xl:text-[80px] xl:leading-[92px] text-[#FFF]">
                                 Embrace the <br />
                                 future of finance
                             </h1>
@@ -313,7 +314,7 @@ const LandingPageBanner = () => {
                     </div>
 
 
-                    <div className="">
+                    <div className="absolute top-0 left-0 w-full h-full z-30 animate__animated animate__fadeInLeft animate__slow">
                         <svg
                             className="hidden lg:block absolute h-full w-full object-cover inset-0 z-40"
                             width="1920"
@@ -960,7 +961,7 @@ const LandingPageBanner = () => {
                                 />
                             </div> */}
 
-                    <img src={landingPageWoman} alt="landing page banner" className="absolute -right-30 z-20 " style={{
+                    <img src={landingPageWoman} alt="landing page banner" className="absolute -right-30 z-20 animate__animated animate__fadeInRight animate__slow" style={{
                         clipPath: "polygon(30% 100%, 103% -90%, 170% -50%, 50% 140%)",
                     }}></img>
                 </div>
